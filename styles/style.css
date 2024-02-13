@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+.apresentacao__conteudo__cabecalho{
+	display: flex;
+	width: 100%;
+	height: 9%;
+	justify-content: center;
+
+	
+}
+
+.link__cabecalho{
+	font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+	margin-left: 150px;
+}
+
+.link__cabecalho:hover{
+	background-color: #ff0000;
+	font-size: 1.6rem;
+	text-decoration: bold;
+	border-radius: 30px;
+}
+
+.cabecalho{
+	text-decoration: none;
+	display: flex;
+	width: 100%;
+	background-color: #22d4fd;
+	align-items: center;
+	
+	
+	
+	
+
+}
+
+.titulo-destaque{
+    color: #22D4FD;
+}
+
+.apresentacao{
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao__conteudo{
+    width: 615px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.botoes{
+	display: flex;
+	align-items: center;
+	margin: 5% 0%;
+	gap: 5%;
+	justify-content: center;
+	
+	}
+
+.apresentacao__conteudo__botoes{
+	text-decoration: none;
+	background-color: #22d4fd;
+	width: 35%;
+	height: 1.9rem;
+	border-radius: 30px;
+	text-align: center;
+	font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;	
+	border-style: solid;
+	border-color: #ffffff;
+	border-width: 3px;
+}
+
+.apresentacao__conteudo__botoes:hover{
+	background-color: #ff0000;
+	font-size: 1.6rem;
+	text-decoration: bold;
+}
+
+.apresentacao__conteudo__imagem {
+	width: 25rem;
+	
+}
+
+.apresentacao__conteudo__rodape{
+	display: flex;
+	width: 100%;
+	height: 5%;
+	background-color: #22d4fd;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.texto_rodape{
+	font-family: 'Montserrat', sans-serif;	
+	font-size: 1.6rem;
+	color: #ffffff;
+	
+	
+}
