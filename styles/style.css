@@ -36,7 +36,6 @@ body{
 	font-size: 3rem;
 	text-decoration: bold;
 	text-decoration: underline;
-	text-decoration-style: double;
 	border-radius: 30px;
 	
 }
@@ -213,7 +212,7 @@ body{
 	height: 1.9rem;
 	border-radius: 30px;
 	text-align: center;
-	font-size: 1.3rem;
+	font-size: 1.rem;
     font-family: 'Montserrat', sans-serif;	
 	border-style: solid;
 	border-color: #ffffff;
@@ -257,3 +256,23 @@ body{
 	
 	
 }
+
+/* PÁGINA SOBRE */
+
+
+	.apresentacao__sobre{
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	height: 600x;
+	gap: 15px;
+	
+	
+	}
+	
+	.apresentacao__sobre__texto {
+	font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+		
+	}
+
