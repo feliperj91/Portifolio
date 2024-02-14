@@ -24,7 +24,7 @@ body{
 }
 
 .link__cabecalho{
-	font-size: 36px;
+	font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
 	margin-left: 10%;
 	color: #22d4fd;
@@ -65,7 +65,10 @@ body{
     margin: 10%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+	justify-content: center;
+	gap: 10%;
+    
+	
 }
 .apresentacao__conteudo{
     width: 600px;
@@ -97,7 +100,9 @@ body{
 	justify-content: center;	
 	}
 	
-@media (max-width:500px) or (max-height:500px) {
+	
+	
+@media (max-width:1024px)  {
 	
 		
 	.apresentacao__conteudo__titulo {
@@ -112,8 +117,8 @@ body{
 	}
 	
 	.apresentacao__conteudo__imagem {
-		width: 25rem;
-		height: 25rem;
+		width: 20rem;
+		height: 20rem;
 		transition-duration: 2s;
 		transform: none;
 		
@@ -137,7 +142,7 @@ body{
 	
 }
 
-@media (max-height:400px) {
+@media (max-height:1024px) {
 	
 	a.apresentacao__conteudo__botao__instagram {
 		display: flex;
@@ -166,6 +171,14 @@ body{
 	}
 	
 	
+	.link__cabecalho{
+	
+	font-size: 2rem;
+	
+	
+	}
+	
+	
 }
 
 
@@ -183,6 +196,7 @@ body{
 	border-color: #ffffff;
 	border-width: 3px;
 	opacity: 0.7;
+	color: #ffffff;
 	
 }
 
@@ -205,6 +219,7 @@ body{
 	border-color: #ffffff;
 	border-width: 3px;
 	opacity: 0.7;
+	color: #ffffff;
 }
 
 .apresentacao__conteudo___botao__github:hover{
