@@ -323,10 +323,88 @@ a.link__cabecalho{
 	
 /* PÁGINA PROJETOS */
 
-	.apresentacao__projetos {
-		background-color: #ff00ff;
+	.apresentacao__projetos__main {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: var(--corFundo);
+		color: var(--corTextos);
 		
 		
 		
 		
 	}
+		
+	.apresentacao__projetos__grade{
+		display: flex;	
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+		background-color: var(--corBotoes);
+		
+		
+	}
+	
+	.projetos{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		width: 100%; 
+		height: 450px; /* DEFINIR PARA 100% APÓS A CONCONSÃODA PÁGINA PROJETOS*/
+		padding: 25px;
+		background-color: var(--corFundo);
+		gap: 5px;
+		
+		
+	}
+	
+	
+	h4.projetos__titulo{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: var(--corTextos);
+		
+	}
+	
+	.projetos__imagem {
+		width: 100%;
+
+		
+	
+		
+	}
+	
+	
+	.projetos__descricao {
+		font-size: 24px;
+		font-size: 1rem;
+		font-family: 'Montserrat', sans-serif;	
+	}
+	
+	
+	
+	.projetos__link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	background-color: var(--corBotoes);
+	width: 35%;
+	height: 1.9rem;
+	border-radius: 30px;
+	text-align: center;
+	font-size: 12px;
+    font-family: 'Montserrat', sans-serif;	
+	border-style: solid;
+	border-color: var(--corTextos);
+	border-width: 3px;
+	color: var(--corTextos);	
+	}
+	
+	
