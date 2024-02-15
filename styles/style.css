@@ -191,7 +191,6 @@ a.link__cabecalho{
 	
 	
 	.link__cabecalho{
-	
 	font-size: 2rem;
 	
 	
@@ -265,7 +264,7 @@ a.link__cabecalho{
 	height: 5%;
 	background-color: var(--corBotoes);
 	justify-content: center;
-	align-items: end;
+	align-items: center;
 	
 }
 
