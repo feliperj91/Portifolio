@@ -219,7 +219,7 @@ a.link__cabecalho{
 	}		
 	
 	.apresentacao__conteudo {
-	width: 25rem;	
+	width: 17rem;	
 		
 		
 		
@@ -349,7 +349,8 @@ a.link__cabecalho{
 	
 	@media (max-width: 500px) {
 		.apresentacao__sobre {
-		width: 25rem;
+		width: 17rem;
+		margin: 5%;
 			
 			
 			
