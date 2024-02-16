@@ -116,6 +116,8 @@ a.link__cabecalho{
 @media (max-width:1024px)  {
 	
 		
+	
+		
 	.apresentacao__conteudo__titulo {
 		font-size: 1rem;
 	}
@@ -123,6 +125,14 @@ a.link__cabecalho{
 	.apresentacao__conteudo__texto {
 		flex-direction: column;
 		font-size: 1rem;
+		
+		
+	}
+	
+	.apresentacao__imagem {
+		
+		
+		
 		
 		
 	}
@@ -199,7 +209,23 @@ a.link__cabecalho{
 	
 }
 
+@media (max-width: 650px) {
+	.apresentacao{
+	display: flex;
+	flex-direction: column-reverse;
+	gap: 10px;
 
+
+	}		
+	
+	.apresentacao__conteudo {
+	width: 25rem;	
+		
+		
+		
+	}
+	
+}
 
 .apresentacao__conteudo__botao__instagram{
 	text-decoration: none;
@@ -246,6 +272,7 @@ a.link__cabecalho{
 	
 }
 
+
 .apresentacao__conteudo__imagem {
 	width: 300px;
 	
@@ -282,7 +309,7 @@ a.link__cabecalho{
 	flex-direction: column;
 	width: 600px;
 	height: 600x;
-	gap: 15px;
+	gap: 10px;
 	
 	
 	}
@@ -319,6 +346,22 @@ a.link__cabecalho{
 	
 	}
 	
+	
+	@media (max-width: 500px) {
+		.apresentacao__sobre {
+		width: 25rem;
+			
+			
+			
+			
+			
+			
+		}
+		
+		
+		
+		
+	}
 	
 	
 /* PÁGINA PROJETOS */
@@ -357,10 +400,12 @@ a.link__cabecalho{
 		height: 450px; /* DEFINIR PARA 100% APÓS A CONCONSÃODA PÁGINA PROJETOS*/
 		padding: 25px;
 		background-color: var(--corFundo);
-		gap: 5px;
+		gap: 10px;
 		
 		
 	}
+	
+
 	
 	
 	h4.projetos__titulo{
@@ -423,27 +468,23 @@ a.link__cabecalho{
 	.apresentacao__projetos__grade{
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		size: 1rem;
+		
 
 		
 		
 		
 	}
 	
+	
 	.projetos__botoes {
-		display: flex;
-		flex-direction: column;
-		gap: 5px;
+	display: flex;
+	gap: 15px;
 		
 		
 	}
 	
-	.projetos__imagem {
-		width: 15rem;
-		
-		
-		
-	}
+	
 	
 	.projetos__descricao {
 		width: 15rem;
@@ -457,5 +498,13 @@ a.link__cabecalho{
 		
 		
 	}
+	
+	
+	
+		
+		
+	
+	
+	
 	
 }
