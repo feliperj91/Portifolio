@@ -398,7 +398,7 @@ a.link__cabecalho{
 		align-items: center;
 		flex-direction: column;
 		width: 100%; 
-		height: 450px; /* DEFINIR PARA 100% APÓS A CONCONSÃODA PÁGINA PROJETOS*/
+		height: 100%; /* DEFINIR PARA 100% APÓS A CONCLUSÃO PÁGINA PROJETOS*/
 		padding: 25px;
 		background-color: var(--corFundo);
 		gap: 10px;
@@ -485,10 +485,15 @@ a.link__cabecalho{
 		
 	}
 	
-	
+	.projetos {
+		
+		
+		
+		
+	}
 	
 	.projetos__descricao {
-		width: 15rem;
+		width: 17rem;
 		
 		
 		
